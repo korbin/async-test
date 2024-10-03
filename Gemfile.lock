@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/socketry/protocol-http.git
+  revision: dbc874adf55ff20120f88a9566a4faf487ada66f
+  branch: stream-auto-close
+  specs:
+    protocol-http (0.37.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -185,7 +192,6 @@ GEM
       json (~> 2)
       samovar (~> 2.1)
     protocol-hpack (1.5.1)
-    protocol-http (0.37.0)
     protocol-http1 (0.27.0)
       protocol-http (~> 0.22)
     protocol-http2 (0.19.3)
@@ -288,6 +294,7 @@ PLATFORMS
 DEPENDENCIES
   debug
   falcon
+  protocol-http!
   pry
   rails (~> 7.2.1)
   sqlite3 (>= 1.4)
